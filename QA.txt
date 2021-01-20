@@ -1,0 +1,63 @@
+1. How would you test an ATM? What functions of the ATM would you check, and from what perspectives?
+
+Here is a web link that is describing the verifies that should be performed for an ATM:  https://artoftesting.com/atm 
+
+- Verify the type of ATM machine
+-verify the pin number is correct, 
+-verify the card is valid, 
+-verify to not display any information until the user is not entering the correct pin number etc
+
+
+2. How would you test inputs containing: 
+
+                   a. Strings 
+
+Test the unhappy path:
+- get and set invalid string values to inputs that contains strings by using special characters eg quotes etc
+- test long strings that exceds the maxium size of the input
+- make other validations according to the test application 
+
+Test the happy path:
+- get and set valid string values to the input 
+- validate the maximum size of the input string
+- validate that the string contains only letters , letters and numbers, any other special characters that can not break the test
+- test more cases according to the test application
+
+                   b. Paths/Files 
+
+Test the happy path:
+-validate that local file exists 
+-validate path to exist
+-verify the path is entered correct in the input 
+-make any other validations according to the application: file extensions, file sizes etc
+
+Test the unhappy path:
+-test the input by entering also invalid paths or files that doesn't exist 
+-test with big file size 
+-test with wrong file extensions 
+
+other examples how you can upload and download a file using the web browser: 
+
+https://www.browserstack.com/docs/automate/selenium/test-file-upload#nodejs 
+https://www.browserstack.com/docs/automate/selenium/test-file-download#nodejs
+
+
+
+
+
+                   c. Time and Date
+
+here are four ways of instantiating a date in javascript:
+var d = new Date();
+var d = new Date(milliseconds);
+var d = new Date(dateString);
+var d = new Date(year, month, day, hours, minutes, seconds, milliseconds);
+
+test the happy path:
+- convert date to string to a certain date format using the date object methods like toLocaleString(), toISOString() etc (date methods : https://www.w3schools.com/jsref/jsref_obj_date.asp)
+- test valid format dates and compare, verify dates like strings
+
+test the unhappy path:
+- test invalid format dates (eg year to contain 5 digits, month 3 digits etc) 
+
+
