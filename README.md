@@ -11,5 +11,4 @@ test automatically using nightwatch
 
     > node node_modules/nightwatch/bin/nightwatch tests/ghostTest.js
 
- or,
     > node node_modules/nightwatch/bin/nightwatch tests/wayAutomationTest.js
