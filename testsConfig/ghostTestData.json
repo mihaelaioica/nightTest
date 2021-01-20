@@ -1,0 +1,9 @@
+{
+    "ghostTest": {
+        "partialUrl": "ghost",
+        "pageTitle": "Ghost: Turn your audience into a business",
+        "searchText": "create new blog",
+        "openPageWithTitle" : "Building content collections with Ghost",
+        "openedUrl" : "https://ghost.org/docs/tutorials/creating-content-collections/"
+    }
+}

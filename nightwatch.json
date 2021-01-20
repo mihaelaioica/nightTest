@@ -1,0 +1,27 @@
+{
+    "src_folders" : ["tests"],
+    "output_folder" : "reports",
+    "page_objects_path" : "pages",   
+ 
+  
+    "webdriver" : {
+      "start_process": true,
+      "server_path": "node_modules/chromedriver/lib/chromedriver/chromedriver.exe",
+      "host": "localhost",
+      "port": 4444,
+      "log_path" : "reports"
+    },
+  
+    "test_settings" : {
+      "default" : {
+        "desiredCapabilities": {
+          "browserName": "chrome",
+          "chromeOptions": {
+            "args": [
+                "start-maximized"               
+            ]
+        }
+        }
+      }
+    }
+  }

@@ -1,0 +1,13 @@
+{
+    "wayAutomation": {
+        "partialUrl": "way2automation.com/way2auto_jquery/",
+        "pageTitle": "Welcome to the Test Site",
+        "registrationName": "AutoMihaela",
+        "registrationPhone": "03685256778",
+        "registrationEmail" : "test@yahoo.com",
+        "registrationCountry" : "Romania",
+        "registrationCity" : "Timisoara",
+        "registrationUsername" : "AutomationTest",
+        "registrationPassword" : "AutomationTest2021!"        
+    }
+} 

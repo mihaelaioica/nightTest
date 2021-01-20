@@ -1,0 +1,19 @@
+{
+  "name": "nighttest",
+  "version": "1.0.0",
+  "description": "nightwatch visma tests",
+  "main": "index.js",
+  "dependencies": {
+    "chromedriver": "^87.0.7",
+    "nightwatch": "^1.5.1",
+    "util": "^0.12.3"
+  },
+  "scripts": {
+    "test": "nightwatch",
+    "test_local": "node node_modules/nightwatch/bin/nightwatch tests",
+    "test1": "node node_modules/nightwatch/bin/nightwatch tests/ghostTest.js",
+    "test2": "node node_modules/nightwatch/bin/nightwatch tests/wayAutomationTest.js"
+  },
+  "author": "Mihaela Ioica",
+  "license": "ISC"
+}
