@@ -1,8 +1,8 @@
 # nightTest
 test automatically using nightwatch
 
-#unzip the nightTest.zip content to a folder path on your computer
-
+# download project to nigtTest folder on the computer using git clone
+git clone https://github.com/mihaelaioica/nightTest.git
 
 #using the command line, from the nightTest folder path (from where is the code structure):
 - run : > npm install
